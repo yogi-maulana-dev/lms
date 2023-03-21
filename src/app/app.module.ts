@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { HalamanSatuComponent } from './halaman-satu/halaman-satu.component';
 import { HalamanDuaComponent } from './halaman-dua/halaman-dua.component';
 import { AppRoutingModule } from './app-routing.module';
+import { HalamanUtamaComponent } from './halaman-utama/halaman-utama.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HalamanSatuComponent,
-    HalamanDuaComponent
+    HalamanDuaComponent,
+    HalamanUtamaComponent
   ],
   imports: [ 
     BrowserModule,
