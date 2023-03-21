@@ -1,15 +1,15 @@
 import { NgModule } from "@angular/core";
-import { RouterModule,Routes } from "@angular/router";
+import { RouterModule, Routes } from "@angular/router";
 import { HalamanDuaComponent } from "./halaman-dua/halaman-dua.component";
 import { HalamanSatuComponent } from "./halaman-satu/halaman-satu.component";
 
-const routes: Routes=[
-{
- path:'halaman-satu', component:HalamanSatuComponent
-},
-{
-    path: 'halaman-dua', component:HalamanDuaComponent
-}
+const routes: Routes = [
+    {
+        path: 'halaman-satu', component: HalamanSatuComponent
+    },
+    {
+        path: 'halaman-dua', component: HalamanDuaComponent
+    }
 
 ];
 
@@ -18,4 +18,4 @@ const routes: Routes=[
     exports: [RouterModule]
 
 })
-export class AppRoutingModule{}
+export class AppRoutingModule { }
