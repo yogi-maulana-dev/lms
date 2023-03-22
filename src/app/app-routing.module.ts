@@ -2,6 +2,7 @@ import { NgModule } from "@angular/core";
 import { RouterModule, Routes } from "@angular/router";
 import { HalamanDuaComponent } from "./halaman-dua/halaman-dua.component";
 import { HalamanSatuComponent } from "./halaman-satu/halaman-satu.component";
+import { HalamanUtamaComponent } from "./halaman-utama/halaman-utama.component";
 
 const routes: Routes = [
     {
@@ -9,6 +10,13 @@ const routes: Routes = [
     },
     {
         path: 'halaman-dua', component: HalamanDuaComponent
+    },
+    {
+        path: 'halaman-utama', component: HalamanUtamaComponent
+    },
+    {
+        path: '', redirectTo: 'halaman-utama', pathMatch: 'full'
+
     }
 
 ];
